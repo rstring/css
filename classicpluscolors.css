@@ -1,0 +1,77 @@
+@import "https://bibliotik.me/static/makeup.css";
+
+/*thanks to Farow for the idea*/
+
+
+body {
+    background-color: #fafafa;
+}
+
+#body {
+	padding: 0;
+}
+
+#search, #search + a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*#header_logo:after {
+    content: url('www.placeholder.xyz/image.png');
+    margin-left: 1px;
+    float: left;
+}
+*/
+
+/* retail pop-up */
+tr.retail td:hover .title:after { display: none; }
+
+/* highlight hovered row */
+.table_div table tbody tr:hover { background-color: #F2F2F2; }
+
+/* break line before tags */
+.torYear::before {
+	content: ' ';
+	display: block;
+}
+
+/* smaller size */
+#torrents_table .torrent span:not(:first-child) {
+	font-size: 12px;
+}
+
+/* emphasis */
+#torrents_table .torrent .title a { color: #0077aa; }
+#torrents_table .torrent .title a:hover { color: #00659a; }
+#torrents_table .torrent a[href^="/creators/"] { color: #009965; font-weight: bold; }
+#torrents_table .torrent a[href^="/creators/"]:hover { color: #006643; }
+#torrents_table .torrent a[href^="/publishers/"] { color: #666666; }
+#torrents_table .torrent a[href^="/publishers/"]:hover { color: #333333; }
+#torrents_table .torrent a[href^="/tags/"] { color: #c0392b; font-size: 12px; }
+#torrents_table .torrent a[href^="/tags/"]:hover { color: #81261d; font-size: 12px; }
+#torrents_table .torrent a[href^="/users/"] { color: #666666; }
+#torrents_table .torrent a[href^="/users/"]:hover { color: #333333; }
+#creatorlist a { color: #009965; font-weight: bold; }
+#creatorlist a:hover { color: #006643; }
+#secondarycreatorlist a { color: #009965; font-weight: bold; }
+#secondarycreatorlist a:hover { color: #006643; }
+#published .publisherLink { color: #666666; }
+#published .publisherLink:hover { color: #333333; }
+#details_tags a { color: #c0392b; }
+#details_tags a:hover { color: #81261d; }
+#details_file_info .toggling { color: #666666; }
+#details_file_info .toggling:hover { color: #333333; }
+#details_upload_info a { color: #666666; }
+#details_upload_info a:hover { color: #333333; }
+#details_activity_info a { color: #666666; }
+#details_activity_info a:hover { color: #333333; }
+
+/* stats */
+#torrents_table .torrent td:nth-child(6),
+#torrents_table .torrent td:nth-child(7),
+#torrents_table .torrent td:nth-child(8),
+#torrents_table .torrent td:nth-child(9) {
+	text-align: center;
+}
+
+/**/
